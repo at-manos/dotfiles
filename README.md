@@ -29,7 +29,6 @@ cool scripts:
 
 -  [btmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): Dmenu based menu for controlling bluetooth devices. Taken from [cdown/btmenu](https://github.com/cdown/btmenu) and added improvements.
 
--  [nightNday](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_nightNday): will take sunset/sunrise data and set background accordingly if you have those files. OC.
 
 -  [booksplit](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): Will split albums/audiobooks/etc by a list of timecodes. Taken from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/booksplit).
 
