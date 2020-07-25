@@ -4,12 +4,17 @@
 #	Run by itself, set the wallpaper (at X start).
 #	If given a file, set that as the new wallpaper.
 #	If given a directory, choose random file in it.
+#	If given nothing, it will randomly choose from $bgloc
 #	If wal is installed, also generates a colorscheme.
 
 # Location of link to wallpaper link.
-bgloc="$HOME/dl/wallpapers/animated"
+bgloc="$HOME/wallpapers/animated"
 if [[ $1 != "" ]]; then
-	choice=$1
+	if [[ -d $1 ]]; then
+		choice=$(shuf -n1 -e $1/*)
+	else
+		choice=$1
+	fi
 else
 	choice=$(shuf -n1 -e $bgloc/*)
 fi
@@ -24,7 +29,7 @@ sleep .2s
 pidof dwm >/dev/null && xdotool key super+F12
 touch $HOME/tmp/wall
 echo $choice > $HOME/tmp/wall
-name=$(sed "s|/home/atmanos/dl/wallpapers/animated/||g" $HOME/tmp/wall)
+name=$(sed "s|$bgloc||g" $HOME/tmp/wall)
 echo $name
 notify-send -i $choice "Wallpaper: $name"
 xwinwrap -ov -g 1920x1080+0+0 -- mpv -wid WID "$choice" --no-osc --no-osd-bar --loop-file --player-operation-mode=cplayer --no-audio --panscan=1.0 --no-input-default-bindings
