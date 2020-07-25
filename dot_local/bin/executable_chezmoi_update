@@ -5,13 +5,18 @@
 
 walls="$HOME/walls"
 repo="$HOME/.local/share/chezmoi"
-
+if [[ $2 == "" ]]; then
+	cmsg="Update $(date)"
+else
+	cmsg=$2
+fi
 
 cp $HOME/.local/share/bg $walls/current.png
 while read -r line; do
 	echo -e "\e[0mChecking $line"
 	chezmoi verify $line
 	if [[ $? == 1 ]]; then
+		chezmoi manage $line
 		chezmoi add $line
 		echo -e "\e[4m$line has been modified, updating dotfiles."
 	fi
@@ -20,6 +25,6 @@ maim $HOME/.local/share/chezmoi/screenie-latest.png
 if [[ $1 == "push" ]]; then
 	cd $repo
 	git add .
-	git commit -am "$2"
+	git commit -am "$cmsg"
 	git push origin master
 fi

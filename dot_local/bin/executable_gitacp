@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# git adds wd, commits with message $1, and pushes to $2 $3
+# example: gitacp "Modified README.md" origin master
+
+if [[ $1 == "help" ]]; then
+	printf "git adds wd, commits with message \$1, and pushes to \$2 \$3\\nexample: gitacp 'Modified README.md' origin master\\n"
+else
+	git add .
+	git commit -am "$1"
+	git push $2 $3
+fi
