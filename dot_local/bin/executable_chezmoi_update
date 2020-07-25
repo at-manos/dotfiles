@@ -1,6 +1,11 @@
 #!/bin/bash
 
+# if run dry(no args): it will populate $repo with the newest changes. It will not add, commit, or push them.
+# if run with "push": it will add, commit with $2 as the message, and push them to your repo.
+
 walls="$HOME/walls"
+repo="$HOME/.local/share/chezmoi"
+
 
 cp $HOME/.local/share/bg $walls/current.png
 while read -r line; do
@@ -12,3 +17,9 @@ while read -r line; do
 	fi
 done < <(chezmoi managed)
 maim $HOME/.local/share/chezmoi/screenie-latest.png
+if [[ $1 == "push" ]]; then
+	cd $repo
+	git add .
+	git commit -am "$2"
+	git push origin master
+fi
