@@ -26,6 +26,7 @@ quick rc's:
 - [zprofile](https://github.com/at-manos/dotfiles/blob/master/dot_zprofile)
 
 - [xprofile](https://github.com/at-manos/dotfiles/blob/master/executable_dot_xprofile)
+
 quick info:
 - WM: dwm
 - compositor: picom
