@@ -27,13 +27,13 @@ quick rc's:
 cool scripts:
 1) [crowmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_crowmenu): Translator using crow, dmenu, and dunst. OC.
 
-2) [btmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): taken from [cdown/btmenu](https://github.com/cdown/btmenu) and added improvements. Dmenu based menu for controlling bluetooth devices.
+2) [btmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): Dmenu based menu for controlling bluetooth devices. Taken from [cdown/btmenu](https://github.com/cdown/btmenu) and added improvements.
 
 3) [nightNday](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_nightNday): will take sunset/sunrise data and set background accordingly if you have those files. OC.
 
-4) [booksplit](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): Taken from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/booksplit). Will split albums/audiobooks/etc by a list of timecodes.
+4) [booksplit](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): Will split albums/audiobooks/etc by a list of timecodes. Taken from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/booksplit).
 
-5) [maimpick](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_maimpick): Taken from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/maimpick), again, however I've added an OCR option using [tesseract](https://github.com/tesseract-ocr/tesseract).
+5) [maimpick](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_maimpick): Dmenu based screenshot menu for maim. Taken from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/maimpick), again, however I've added an OCR option using [tesseract](https://github.com/tesseract-ocr/tesseract).
 
 
 # screenies:
