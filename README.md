@@ -64,6 +64,9 @@ cava
 ![snazzy af](https://github.com/at-manos/dotfiles/blob/master/screenshots/cava.png?raw=true)
 looking busy(nvim, btm, cava)
 ![snazzy af](https://github.com/at-manos/dotfiles/blob/master/screenshots/busy.png?raw=true)
+zathura(book: The C Programming Language)
+![snazzy af](https://github.com/at-manos/dotfiles/blob/master/screenshots/busy.png?raw=true)
+
 dunst notifications w/ [crowmenu translator](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_crowmenu)
 ![snazzy af](https://github.com/at-manos/dotfiles/blob/master/screenshots/dunst.png?raw=true)
 latest
