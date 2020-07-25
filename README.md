@@ -11,17 +11,17 @@ notes:
 
 quick rc's:
 
-[vimrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/nvim/init.vim)
+- [vimrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/nvim/init.vim)
 
-[dunstrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/dunst/dunstrc)
+- [dunstrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/dunst/dunstrc)
 
-[zshrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/zsh/dot_zshrc)
+- [zshrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/zsh/dot_zshrc)
 
-[xinitrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/xinitrc)
+- [xinitrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/xinitrc)
 
-[zprofile](https://github.com/at-manos/dotfiles/blob/master/dot_zprofile)
+- [zprofile](https://github.com/at-manos/dotfiles/blob/master/dot_zprofile)
 
-[xprofile](https://github.com/at-manos/dotfiles/blob/master/executable_dot_xprofile)
+- [xprofile](https://github.com/at-manos/dotfiles/blob/master/executable_dot_xprofile)
 
 
 cool scripts:
