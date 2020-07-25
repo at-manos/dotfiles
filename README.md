@@ -16,7 +16,7 @@ quick rc's:
 
 [zshrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/zsh/dot_zshrc)
 
-[xinitrc](https://github.com/at-manos/dotfiles/blob/master/dot_xinitrc)
+[xinitrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/xinitrc)
 
 [zprofile](https://github.com/at-manos/dotfiles/blob/master/dot_zprofile)
 
