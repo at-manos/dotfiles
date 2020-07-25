@@ -36,6 +36,8 @@ cool scripts:
 
 
 # screenies:
+[*old bg*](https://github.com/at-manos/dotfiles/blob/master/walls/old.png)
+[*new bg*](https://github.com/at-manos/dotfiles/blob/master/walls/current.png)
 
 blank
 ![blank af](https://github.com/at-manos/dotfiles/blob/master/screenshots/blank.png?raw=true)
