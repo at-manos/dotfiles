@@ -20,7 +20,7 @@ quick rc's:
 
 [zprofile](https://github.com/at-manos/dotfiles/blob/master/dot_zprofile)
 
-[xprofile](https://github.com/at-manos/dotfiles/blob/master/dot_xprofile)
+[xprofile](https://github.com/at-manos/dotfiles/blob/master/executable_dot_xprofile)
 
 
 # screenies:
