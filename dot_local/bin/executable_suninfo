@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KEY=9283ba4945c6452ab195c63608e40d10
+KEY=
 IP=$(curl -s 'ipinfo.io/ip')
 case "$1" in
 	help)
