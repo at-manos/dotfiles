@@ -33,6 +33,7 @@ cool scripts:
 -  [booksplit](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): Will split albums/audiobooks/etc by a list of timecodes. Taken from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/booksplit).
 
 -  [maimpick](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_maimpick): Dmenu based screenshot menu for maim. Taken from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/maimpick), again, however I've added an OCR option using [tesseract](https://github.com/tesseract-ocr/tesseract).
+- [setbganimated](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_setbganimated): Very simple animated backgrounds using xwinwrap. Set up for 1920x1080 displays, however that's easily changable.
 
 
 # screenies:
