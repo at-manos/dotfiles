@@ -35,4 +35,4 @@ looking busy(nvim, btm, cava)
 dunst notifications w/ [crowmenu translator](https://github.com/at-manos/dotfiles/blob/master/.local/bin/crowmenu)
 ![snazzy af](https://github.com/at-manos/dotfiles/blob/master/screenshots/dunst.png?raw=true)
 latest
-![latest](https://github.com/at-manos/dotfiles/blob/master/screenie-latest?raw=true)
+![latest](https://github.com/at-manos/dotfiles/blob/master/screenie-latest.png?raw=true)
