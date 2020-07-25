@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TITLE=$(playerctl metadata title)
+ARTIST=$(playerctl metadata artist)
+notify-send "$ARTIST" "$TITLE"

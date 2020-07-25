@@ -1,0 +1,12 @@
+#!/bin/bash
+
+KEY=9283ba4945c6452ab195c63608e40d10
+IP=$(curl -s 'ipinfo.io/ip')
+case "$1" in
+	help)
+		curl -s 'https://api.ipgeolocation.io/astronomy?apiKey='$KEY'&ip='$IP'&lang=en' | jq
+		;;
+	*)
+		curl -s 'https://api.ipgeolocation.io/astronomy?apiKey='$KEY'&ip='$IP'&lang=en' | jq '.'$1 | sed "s/\"//g"
+		;;
+esac

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while read -r line; do
+	echo -e "\e[0mChecking $line"
+	chezmoi verify $line
+	if [[ $? == 1 ]]; then
+		chezmoi add $line
+		echo -e "\e[4;42m$line has been modified, updating dotfiles."
+	fi
+done < <(chezmoi managed)

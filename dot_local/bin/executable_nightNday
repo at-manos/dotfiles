@@ -1,0 +1,28 @@
+#!/bin/bash
+
+INPUT=$HOME/dl/wallpapers/daynight
+CHOSEN=$1
+BGLOC="${XDG_DATA_HOME:-$HOME/.local/share/}/bg"
+SUNRISE=$(suninfo sunrise | cut -d':' -f1)
+SUNSET=$(suninfo sunset | cut -d':' -f1)
+if [[ $SUNRISE == "null" ]]; then
+	SUNRISE=6
+	SUNSET=20
+fi
+DIFF="false"
+if [ $(date +%H) -ge $SUNSET ] || [ $(date +%H) -lt $SUNRISE ]; then
+	DN="night"
+else
+	DN="day"
+fi
+if [[ $1 == "" ]]; then
+	CHOSEN=$(ls $INPUT | dmenu -p "Please enter the background you want")
+	echo $CHOSEN
+fi
+if [[ $1 == "prev" ]]; then
+	CHOSEN=$(cat $HOME/.config/wallpaperChoice)
+fi
+echo $CHOSEN > $HOME/.config/wallpaperChoice
+FILE=$INPUT/$CHOSEN/$DN
+echo $FILE
+cmp --silent $BGLOC $FILE || /bin/bash $HOME/.local/bin/setbg $FILE

@@ -1,0 +1,128 @@
+Failed to start lightdm.service: Interactive authentication required.
+See system logs and 'systemctl status lightdm.service' for details.
+exception: Failed to access /home/atmanos/.config/mpd/playlists: No such file or directory
+exception: Decoder plugin 'wildmidi' is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg
+exception: Failed to access /home/atmanos/Music: No such file or directory
+exception: Input plugin 'tidal' is unavailable: No Tidal application token configured
+exception: Input plugin 'qobuz' is unavailable: No Qobuz app_id configured
+WARNING: No icon found in path: 'dialog-information'
+[826:826:0628/111451.953804:ERROR:vaapi_wrapper.cc(480)] vaInitialize failed: unknown libva error
+[826:826:0628/111451.973884:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[803:820:0628/111452.090137:ERROR:rewards_service_impl.cc(191)] Failed to read file: /home/atmanos/.config/BraveSoftware/Brave-Browser/Default/ledger_state
+[844:844:0628/111452.090428:ERROR:ledger_impl.cc(122)] Failed to initialize wallet
+[803:803:0628/111454.780785:ERROR:brave_referrals_service.cc(243)] Failed to fetch headers from referral server, error: -102, response code: -1, payload: , url: https://laptop-updates.brave.com/promo/custom-headers
+[803:803:0628/111454.780865:ERROR:brave_referrals_service.cc(271)] Failed to initialize referral, error: -102, response code: -1, payload: , url: https://laptop-updates.brave.com/promo/initialize/nonua
+WARNING: BadWindow (invalid Window parameter)
+[803:803:0628/111856.573491:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[803:803:0628/111856.574870:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[803:803:0628/111856.587668:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Cannot access contents of url "chrome://newtab/". Extension manifest must request permission to access this host.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+erresc: unknown csi ESC[22;0;0t
+erresc: invalid color j=258, p=?
+erresc: unknown csi ESC[23;0;0t
+erresc: unknown csi ESC[22;0;0t
+erresc: invalid color j=258, p=?
+WARNING: BadWindow (invalid Window parameter)
+erresc: unknown csi ESC[23;0;0t
+erresc: unknown csi ESC[22;0;0t
+erresc: invalid color j=258, p=?
+erresc: unknown csi ESC[23;0;0t
+erresc: unknown csi ESC[22;0;0t
+erresc: invalid color j=258, p=?
+erresc: unknown csi ESC[23;0;0t
+WARNING: BadWindow (invalid Window parameter)
+[803:803:0628/113756.308240:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[803:803:0628/113756.308307:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+Fontconfig error: Cannot load default config file: No such file: (null)
+[803:803:0628/113804.299810:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[803:803:0628/113804.299917:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[803:803:0628/113812.225480:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[803:803:0628/113812.225542:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[803:803:0628/113812.225595:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+[803:803:0628/114054.186548:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.687 s for first_image_paint 0.684 s
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+WARNING: BadWindow (invalid Window parameter)
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keycannot open display
+Invalid MIT-MAGIC-COOKIE-1 keycannot open display
+Invalid MIT-MAGIC-COOKIE-1 keycannot open display
+Invalid MIT-MAGIC-COOKIE-1 keycannot open display
+Invalid MIT-MAGIC-COOKIE-1 keycannot open display
+Invalid MIT-MAGIC-COOKIE-1 keycannot open display
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+Invalid MIT-MAGIC-COOKIE-1 keyCan't open display
+[803:803:0628/122136.220151:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[803:815:0628/122136.221333:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[803:803:0628/122136.246449:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[803:815:0628/122136.247498:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote

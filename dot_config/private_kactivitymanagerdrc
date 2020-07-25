@@ -1,0 +1,9 @@
+[activities]
+3f4a1242-1856-4c0c-a37b-8c65d388295e=Default
+b70220ab-f269-4351-baf2-309e6eab2f11=ddd
+
+[activities-icons]
+b70220ab-f269-4351-baf2-309e6eab2f11=activities
+
+[main]
+currentActivity=3f4a1242-1856-4c0c-a37b-8c65d388295e

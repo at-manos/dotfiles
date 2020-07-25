@@ -1,0 +1,9 @@
+#!/bin/bash
+
+TOUCH=11
+
+if [[ $( xinput --list-props 11 | grep Enabled | awk '{ print $4}') == "1" ]]; then
+	xinput --disable $TOUCH
+else
+	xinput --enable $TOUCH
+fi

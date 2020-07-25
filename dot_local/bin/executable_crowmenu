@@ -1,0 +1,18 @@
+#!/bin/bash
+#testing
+BEFORE=$(echo ""|dmenu -p "Enter some text you'd like to translate!")
+LANGA=$(crow -c | cut -d'-' -f1 | dmenu -i -p "Enter the language you'd like to translate from.")
+CODEA=$(crow -c | grep "$LANGA" | awk -F' - ' '{print $2}')
+LANGB=$(crow -c | cut -d'-' -f1 | dmenu -i -p "Enter the language you'd like to translate to.")
+SPEAK=$(printf "No\\nYes" | dmenu -i -p "Would you like to hear the output?")
+CLIP=$(printf "No\\nYes" | dmenu -i -p "Would you like the output to be copied to your clipboard?")
+CODEB=$(crow -c | grep "$LANGB" | awk -F' - ' '{print $2}')
+echo $CODEB
+RESP=$(crow  "$BEFORE" -s $CODEA -t $CODEB)
+if [[ $CLIP == "Yes" ]]; then
+	crow "$BEFORE" -s $CODEA -t $CODEB | awk -v RS= '$1=$1' | awk 'NR==3' | xclip -selection clipboard &
+fi
+notify-send "${RESP%%- examples*}"
+if [[ $SPEAK == "Yes" ]]; then
+	crow "$BEFORE" -s $CODEA -p -t $CODEB &
+fi

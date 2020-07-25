@@ -1,0 +1,27 @@
+#!/bin/zsh
+
+INPUT=$HOME/dl/wallpapers/dynamic
+CHOSEN=$1
+BGLOC="${XDG_DATA_HOME:-$HOME/.local/share/}/bg"
+SUNRISE=$(suninfo sunrise)
+SUNSET=$(suninfo sunset)
+SUNTIME=$(( $SUNSET - $SUNRISE )).0
+echo $SUNTIME
+DIFF="false"
+if [[ $1 == "" ]]; then
+	CHOSEN=$(ls $INPUT | dmenu -p "Please enter the background you want")
+	echo $CHOSEN
+fi
+if [[ $1 == "prev" ]]; then
+	CHOSEN=$(cat $HOME/.config/wallpaperChoice)
+fi
+echo $CHOSEN > $HOME/.config/wallpaperChoice
+DIR=$INPUT/$CHOSEN/
+NUMF=$(ls $DIR | wc -l)
+TIMEPER=$(( $SUNTIME / $NUMF ))
+echo $TIMEPER
+echo $DIR
+for ((i=1;i<=$NUMF;i++)); do
+	echo $i
+done
+#cmp --silent $BGLOC $FILE || /bin/bash $HOME/.local/bin/setbg $FILE

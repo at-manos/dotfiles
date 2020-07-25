@@ -1,0 +1,12 @@
+#!/bin/bash
+PICS=/home/atmanos/dl/wallpapers
+echo tes
+if [[ $1 == "rand" ]]; then
+	CUR=$(find $PICS | shuf -n1)
+else
+	CHOSEN=$(for x in $(find $PICS); do
+		[[ -d $x ]] || echo $(basename $x)
+	done | dmenu)
+	CUR=$(find $PICS | grep $CHOSEN)
+fi
+setbg $CUR

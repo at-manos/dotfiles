@@ -1,0 +1,7 @@
+#!/bin/bash
+
+case $BLOCK_BUTTON in
+	1) btmenu; pkill -RTMIN+4 dwmblocks ;;
+esac
+
+echo " "

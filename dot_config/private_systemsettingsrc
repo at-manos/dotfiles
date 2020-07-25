@@ -1,0 +1,10 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/.config/dwmplasma,file:$HOME/.config/dwmplasma
+detailViewIconSize=0
+
+[MainWindow]
+Height 1080=1014
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABAAAAAP2AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1024

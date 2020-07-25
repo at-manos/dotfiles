@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [[ -f $1 ]]; then
+	echo "$1" | iconv -cf UTF-8 -t ASCII//TRANSLIT | tr '[:punct:]' '-' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed "s/-\+/-/g;s/\(^-\|-\$\)//g"
+else if [[ -d $1 ]] ;then
+	IFS=$(echo -en "\n\b")
+	for x in $1/*; do
+		mv $x $(echo "$x" | iconv -cf UTF-8 -t ASCII//TRANSLIT | tr '[:punct:]' '-' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed "s/-\+/-/g;s/\(^-\|-\$\)//g")
+	done
+	else
+		echo "$1" | iconv -cf UTF-8 -t ASCII//TRANSLIT | tr '[:punct:]' '-' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed "s/-\+/-/g;s/\(^-\|-\$\)//g"
+	fi
+fi
