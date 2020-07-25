@@ -11,4 +11,4 @@ while read -r line; do
 		echo -e "\e[4m$line has been modified, updating dotfiles."
 	fi
 done < <(chezmoi managed)
-scrot $HOME/.local/share/chezmoi/screenie-latest.png
+maim $HOME/.local/share/chezmoi/screenie-latest.png
