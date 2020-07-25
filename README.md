@@ -27,7 +27,7 @@ quick rc's:
 cool scripts:
 1) [crowmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_crowmenu): Translator using crow, dmenu, and dunst. OC.
 	
-2) [btmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): taken from [cdown/btmenu](https://github.com/cdown/btmenu) and added improvements.
+2) [btmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_btmenu): taken from [cdown/btmenu](https://github.com/cdown/btmenu) and added improvements. Dmenu based menu for controlling bluetooth devices.
 	
 3) [nightNday](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_nightNday): will take sunset/sunrise data and set background accordingly if you have those files. OC.
 	
