@@ -5,7 +5,7 @@
 
 my dotfiles for arch linux
 
-note: this was compiled using [chezmoi](https://github.com/twpayne/chezmoi). This makes it pretty easy to pull and apply using chezmoi's update command. However, it may look a little weird with all the "dot_"s. Just replace those with "."s if you're not interested in using chezmoi.
+note: this was compiled using [chezmoi](https://github.com/twpayne/chezmoi). This makes it pretty easy to pull and apply using chezmoi's update command. However, it may look a little weird with all the "dot_"s. Just replace those with "."s if you're not interested in using chezmoi. I do like it though, and I've written a [little script](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_chezmoi_update) to help keep them up to date.
 
 
 quick rc's:
