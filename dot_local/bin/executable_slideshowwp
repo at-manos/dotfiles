@@ -1,5 +1,5 @@
 #!/bin/bash
-PICS=/home/atmanos/dl/wallpapers
+PICS=/home/atmanos/wallpapers
 echo tes
 if [[ $1 == "rand" ]]; then
 	CUR=$(find $PICS | shuf -n1)

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+walls="$HOME/walls"
+
+cp $HOME/.local/share/bg $walls/current.png
 while read -r line; do
 	echo -e "\e[0mChecking $line"
 	chezmoi verify $line
