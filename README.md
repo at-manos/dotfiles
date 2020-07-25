@@ -26,7 +26,15 @@ quick rc's:
 - [zprofile](https://github.com/at-manos/dotfiles/blob/master/dot_zprofile)
 
 - [xprofile](https://github.com/at-manos/dotfiles/blob/master/executable_dot_xprofile)
-
+quick info:
+- WM: dwm
+- compositor: picom
+- terminal: st
+- shell: zsh
+- notifications: dunst
+- editor: nvim
+- browser: brave
+- reader: zathura
 
 cool scripts:
 -  [crowmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_crowmenu): Translator using crow, dmenu, and dunst. OC.
