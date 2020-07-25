@@ -14,13 +14,13 @@ quick rc's:
 
 [dunstrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/dunst/dunstrc)
 
-[zshrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/zsh/.zshrc)
+[zshrc](https://github.com/at-manos/dotfiles/blob/master/dot_config/zsh/dot_zshrc)
 
-[xinitrc](https://github.com/at-manos/dotfiles/blob/master/.xinitrc)
+[xinitrc](https://github.com/at-manos/dotfiles/blob/master/dot_xinitrc)
 
-[zprofile](https://github.com/at-manos/dotfiles/blob/master/.profile)
+[zprofile](https://github.com/at-manos/dotfiles/blob/master/dot_zprofile)
 
-[xprofile](https://github.com/at-manos/dotfiles/blob/master/.xprofile)
+[xprofile](https://github.com/at-manos/dotfiles/blob/master/dot_xprofile)
 
 
 # screenies:
