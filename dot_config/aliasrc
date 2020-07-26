@@ -10,9 +10,7 @@ alias \
 	rm="rm -vI" \
 	la="ls -a" \
 	mkd="mkdir -pv" \
-	cfd="cd ~/.local/share/chezmoi" \
 	yt="youtube-dl --add-metadata -i" \
-	cfp="sudo $EDITOR /etc/xdg/picom.conf"
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner"
 
