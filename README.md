@@ -30,6 +30,7 @@ quick rc's:
 quick info:
 
 
+
 | Name      | Function        | Notes                                                                                                                                                                |
 |-----------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | dwm       | Window Manager  | [Luke Smith's build of dwm](https://github.com/LukeSmithxyz/dwm) with some slight modifications.                                                                     |
@@ -45,7 +46,6 @@ quick info:
 | playerctl | Media Controls  | Allows you to control multiple different types of audio sources, e.g spotify, chromium, mpv, etc. Really nice. [More here.](https://github.com/altdesktop/playerctl) |
 | sxiv      | Image Viewer    | [Simple X Image Viewer](https://github.com/muennich/sxiv). Very versatile, and supports gifs.                                                                        |
 | sddm      | Display Manager | [Simple Desktop Display Manager](https://wiki.archlinux.org/index.php/SDDM). Nice aerial video shots on login screen. Looks very clean.                              |
-
 
 cool scripts:
 -  [crowmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_crowmenu): Translator using crow, dmenu, and dunst. OC.
