@@ -2,11 +2,17 @@
 
 # git adds wd, commits with message $1, and pushes to $2 $3
 # example: gitacp "Modified README.md" origin master
+# running gitacp with no args will push to upstream.
 
 if [[ $1 == "help" ]]; then
 	printf "git adds wd, commits with message \$1, and pushes to \$2 \$3\\nexample: gitacp 'Modified README.md' origin master\\n"
 else
+	if [[ $1 == "" ]]; then
+		cmsg="Update on $(date)"
+	else
+		cmsg=$1
+	fi
 	git add .
-	git commit -am "$1"
+	git commit -am "$cmsg"
 	git push $2 $3
 fi

@@ -3,7 +3,7 @@
 # If you use startx/xinit like a Chad, this file will also be sourced.
 # Fix Gnome Apps Slow  Start due to failing services
 # Add this when you include flatpak in your system
-
+# test
 # fcitx for Chinese input and such.
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx

@@ -2,7 +2,6 @@
 # dotfiles
 *keep it simple, stupid.*
 
-
 my dotfiles for arch linux
 
 notes:
