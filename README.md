@@ -10,7 +10,7 @@ notes:
 	- chezmoi init https://github.com/at-manos/dotfiles.git
 	- chezmoi diff (if you want to see what changes it'd make)
 	- chezmoi apply
-- However, it may look a little weird with all the "dot_"s and "executable_"s if you don't want to use chezmoi. Just replace "dot_" with "."s and remove any "executable_" tags if you're not interested in using it. I do like it though, and I've written a [little script](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_chezmoi_update) to help keep them up to date.
+- If you don't want to use chezmoi, it may look a little weird with all the "dot_"s and "executable_"s. Just replace "dot_" with "."s and remove any "executable_" tags if you're not interested in using it. I do like it though, and I've written a [little script](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_chezmoi_update) to help keep them up to date.
 -  I have shamelessly taken most of my dots from Luke Smith's [voidrice](https://github.com/LukeSmithxyz/voidrice). There are improvements I have made, but at the core, it's mostly his.
 
 quick rc's:
