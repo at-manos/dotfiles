@@ -29,7 +29,6 @@ quick rc's:
 
 quick info:
 
-
 | Name      | Function        | Notes                                                                                                                                                                |
 |-----------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | dwm       | Window Manager  | [Luke Smith's build of dwm](https://github.com/LukeSmithxyz/dwm) with some slight modifications.                                                                     |
@@ -41,7 +40,7 @@ quick info:
 | st        | Terminal        | [Luke Smith's build of st](https://github.com/LukeSmithxyz/st)                                                                                                       |
 | brave     | Browser         | I would generally use firefox, however, playerctl works really well with chromium-based browsers.                                                                    |
 | dunst     | Notifications   | Simple and clean. [More here.](https://wiki.archlinux.org/index.php/Dunst)                                                                                           |
-| mpv       | Media Player    | Good media player with customizable hotkeys. [More here](https://wiki.archlinux.org/index.php/Mpv)                                                                   |
+| mpv       | Media Player    | Customizable media player. Added MPRIS2 plugin for playerctl support. [More here](https://wiki.archlinux.org/index.php/Mpv)                                          |
 | playerctl | Media Controls  | Allows you to control multiple different types of audio sources, e.g spotify, chromium, mpv, etc. Really nice. [More here.](https://github.com/altdesktop/playerctl) |
 | sxiv      | Image Viewer    | [Simple X Image Viewer](https://github.com/muennich/sxiv). Very versatile, and supports gifs.                                                                        |
 | sddm      | Display Manager | [Simple Desktop Display Manager](https://wiki.archlinux.org/index.php/SDDM). Nice aerial video shots on login screen. Looks very clean.                              |
