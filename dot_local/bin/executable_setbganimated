@@ -27,9 +27,9 @@ wal -i "$(readlink -f "$bgloc")" -o "${XDG_CONFIG_HOME:-$HOME/.config}/wal/postr
 killall xwinwrap
 sleep .2s
 pidof dwm >/dev/null && xdotool key super+F12
-touch $HOME/tmp/wall
-echo $choice > $HOME/tmp/wall
-name=$(sed "s|$bgloc||g" $HOME/tmp/wall)
+touch /tmp/wall
+echo $choice > /tmp/wall
+name=$(sed "s|$bgloc||g" /tmp/wall)
 echo $name
 notify-send -i $choice "Wallpaper: $name"
 xwinwrap -ov -g 1920x1080+0+0 -- mpv -wid WID "$choice" --no-osc --no-osd-bar --loop-file --player-operation-mode=cplayer --no-audio --panscan=1.0 --no-input-default-bindings
