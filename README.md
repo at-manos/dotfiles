@@ -28,14 +28,19 @@ quick rc's:
 - [xprofile](https://github.com/at-manos/dotfiles/blob/master/executable_dot_xprofile)
 
 quick info:
-- WM: dwm
-- compositor: picom
-- terminal: st
-- shell: zsh
-- notifications: dunst
-- editor: nvim
-- browser: brave
-- reader: zathura
+| Name    | Function        | Notes                                                                                                     |
+|---------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| dwm     | Window Manager  | [Luke Smith's build of dwm](https://github.com/LukeSmithxyz/dwm) with some slight modifications.          |
+| dmenu   | Dynamic Menu    | Suckless menu program. [More here](https://wiki.archlinux.org/index.php/Dmenu)                            |
+| picom   | Compositor      | Good customizable compositing. [More here.](https://wiki.archlinux.org/index.php/Picom)                   |
+| zsh     | Shell           | Really nice shell. [More here](https://wiki.archlinux.org/index.php/Zsh)                                  |
+| nvim    | Editor          | [Neovim](https://github.com/neovim/neovim) with several plugins. Check .config/nvim for list of plugins.  |
+| zathura | Document Viewer | Good document viewer with vim-keys integrated. [More here.](https://wiki.archlinux.org/index.php/Zathura) |
+| st      | Terminal        | [Luke Smith's build of st](https://github.com/LukeSmithxyz/st)                                            |
+| brave   | Browser         | I would generally use firefox, however, playerctl works really well with chromium-based browsers.         |
+| dunst   | Notifications   | Simple and clean. [More here.](https://wiki.archlinux.org/index.php/Dunst)                                |
+
+
 
 cool scripts:
 -  [crowmenu](https://github.com/at-manos/dotfiles/blob/master/dot_local/bin/executable_crowmenu): Translator using crow, dmenu, and dunst. OC.
